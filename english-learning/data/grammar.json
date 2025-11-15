@@ -1,0 +1,88 @@
+{
+  "daily_grammar": [
+    {
+      "topic": "Subjunctive Mood (가정법)",
+      "explanation": "가정법은 현실과 다른 상황이나 소망을 표현할 때 사용합니다. If I were you (내가 너라면), I wish I could (할 수 있으면 좋겠는데) 등의 표현에서 사용됩니다.",
+      "examples": [
+        {
+          "sentence": "If I were you, I would book the flight early.",
+          "korean": "내가 너라면 항공편을 일찍 예약할 텐데.",
+          "note": "현재 사실과 반대되는 가정"
+        },
+        {
+          "sentence": "I wish I could speak Korean fluently.",
+          "korean": "한국어를 유창하게 할 수 있으면 좋겠어요.",
+          "note": "현재 불가능한 일에 대한 소망"
+        },
+        {
+          "sentence": "It's important that he be on time.",
+          "korean": "그가 시간에 맞춰 오는 것이 중요해요.",
+          "note": "중요성을 나타내는 that절에서 동사원형 사용"
+        }
+      ]
+    },
+    {
+      "topic": "Inversion (도치)",
+      "explanation": "강조나 격식을 위해 문장의 어순을 바꾸는 것입니다. 부정어구가 문장 앞에 올 때나 조건문에서 if를 생략할 때 사용됩니다.",
+      "examples": [
+        {
+          "sentence": "Never have I seen such a beautiful sunset.",
+          "korean": "그렇게 아름다운 일몰은 본 적이 없어요.",
+          "note": "Never가 문장 앞에 와서 도치"
+        },
+        {
+          "sentence": "Had I known earlier, I would have helped.",
+          "korean": "더 일찍 알았다면 도와줬을 텐데.",
+          "note": "If I had known의 if 생략 후 도치"
+        },
+        {
+          "sentence": "Only when you arrive will we start the meeting.",
+          "korean": "당신이 도착해야만 회의를 시작할 거예요.",
+          "note": "Only + 부사구가 문장 앞에 와서 도치"
+        }
+      ]
+    },
+    {
+      "topic": "Cleft Sentences (분열문)",
+      "explanation": "특정 부분을 강조하기 위해 문장을 It is/was... that/who 구조로 나누는 것입니다. 정보의 초점을 명확히 할 때 사용됩니다.",
+      "examples": [
+        {
+          "sentence": "It was John who called you yesterday.",
+          "korean": "어제 당신에게 전화한 사람은 존이었어요.",
+          "note": "John을 강조하는 분열문"
+        },
+        {
+          "sentence": "What I need is a good night's sleep.",
+          "korean": "내가 필요한 것은 푹 자는 것이에요.",
+          "note": "What... is 구조로 필요한 것을 강조"
+        },
+        {
+          "sentence": "It's because of the weather that we cancelled the trip.",
+          "korean": "날씨 때문에 여행을 취소한 거예요.",
+          "note": "이유를 강조하는 분열문"
+        }
+      ]
+    },
+    {
+      "topic": "Ellipsis (생략)",
+      "explanation": "반복을 피하고 자연스러운 대화를 위해 문장의 일부를 생략하는 것입니다. 상황상 명확한 부분은 생략할 수 있습니다.",
+      "examples": [
+        {
+          "sentence": "A: Are you coming to the party? B: I hope so.",
+          "korean": "A: 파티에 올 거야? B: 그러길 바라.",
+          "note": "I hope I can come to the party의 생략"
+        },
+        {
+          "sentence": "She can speak French and so can I.",
+          "korean": "그녀는 프랑스어를 할 수 있고 나도 할 수 있어.",
+          "note": "I can speak French의 생략"
+        },
+        {
+          "sentence": "When ready, please call me.",
+          "korean": "준비되면 전화해 주세요.",
+          "note": "When you are ready의 생략"
+        }
+      ]
+    }
+  ]
+}

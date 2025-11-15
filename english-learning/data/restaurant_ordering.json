@@ -1,0 +1,69 @@
+{
+  "restaurant_ordering": {
+    "title": "레스토랑 주문",
+    "description": "레스토랑에서 음식을 주문하는 상황",
+    "difficulty": "intermediate",
+    "dialogue": [
+      {
+        "speaker": "Staff",
+        "text": "Good evening! Welcome to our restaurant. Do you have a reservation?",
+        "korean": "안녕하세요! 저희 레스토랑에 오신 것을 환영합니다. 예약이 있으신가요?",
+        "vocabulary": [
+          { "word": "reservation", "meaning": "예약" },
+          { "word": "welcome", "meaning": "환영하다" }
+        ],
+        "grammar": "Do you have...? - 소유 여부 묻기"
+      },
+      {
+        "speaker": "Customer",
+        "text": "No, I don't have a reservation. Is there a table available for two?",
+        "korean": "아니요, 예약은 없습니다. 2명이 앉을 테이블이 있나요?",
+        "vocabulary": [
+          { "word": "available", "meaning": "이용 가능한" },
+          { "word": "table", "meaning": "테이블" }
+        ],
+        "grammar": "Is there...? - 존재 여부 묻기"
+      },
+      {
+        "speaker": "Staff",
+        "text": "Yes, we have a table by the window. Please follow me.",
+        "korean": "네, 창가에 테이블이 있습니다. 따라오세요.",
+        "vocabulary": [
+          { "word": "window", "meaning": "창문" },
+          { "word": "follow", "meaning": "따라오다" }
+        ],
+        "grammar": "Please + 동사원형 - 정중한 요청"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Thank you. Could I see the menu, please?",
+        "korean": "감사합니다. 메뉴를 볼 수 있을까요?",
+        "vocabulary": [
+          { "word": "menu", "meaning": "메뉴" }
+        ],
+        "grammar": "Could I...? - 정중한 허가 요청"
+      },
+      {
+        "speaker": "Staff",
+        "text": "Of course! Here's the menu. Would you like something to drink first?",
+        "korean": "물론입니다! 여기 메뉴입니다. 먼저 음료를 드시겠어요?",
+        "vocabulary": [
+          { "word": "of course", "meaning": "물론" },
+          { "word": "drink", "meaning": "음료" }
+        ],
+        "grammar": "Would you like...? - 정중한 제안"
+      },
+      {
+        "speaker": "Customer",
+        "text": "I'll have a glass of water and the grilled salmon, please.",
+        "korean": "물 한 잔과 구운 연어를 주세요.",
+        "vocabulary": [
+          { "word": "glass", "meaning": "잔" },
+          { "word": "grilled", "meaning": "구운" },
+          { "word": "salmon", "meaning": "연어" }
+        ],
+        "grammar": "I'll have... - 주문 표현"
+      }
+    ]
+  }
+}

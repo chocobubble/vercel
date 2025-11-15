@@ -1,0 +1,200 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #f5f5f7;
+}
+
+.container {
+    background: white;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+h1 { 
+    text-align: center; 
+    color: #1d1d1f; 
+}
+
+.scenario-btn {
+    background: #007aff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.scenario-btn.active { 
+    background: #0056b3; 
+}
+
+.controls { 
+    text-align: center; 
+    margin: 20px 0; 
+}
+
+.play-btn {
+    background: #34c759;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 25px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+#userInput {
+    width: 100%;
+    padding: 15px;
+    border: 2px solid #d1d1d6;
+    border-radius: 8px;
+    font-size: 16px;
+    box-sizing: border-box;
+    margin: 20px 0;
+}
+
+.check-btn, .next-btn {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.check-btn { 
+    background: #ff9500; 
+    color: white; 
+}
+
+.next-btn { 
+    background: #007aff; 
+    color: white; 
+}
+
+.result {
+    padding: 15px;
+    border-radius: 8px;
+    margin: 20px 0;
+    display: none;
+}
+
+.correct { 
+    background: #d4edda; 
+    color: #155724; 
+}
+
+.incorrect { 
+    background: #f8d7da; 
+    color: #721c24; 
+}
+
+.progress { 
+    text-align: center; 
+    color: #666; 
+    margin: 20px 0; 
+}
+
+#explanation {
+    display: none;
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 8px;
+    margin: 10px 0;
+    border-left: 4px solid #007aff;
+}
+
+#explanation h4 {
+    margin: 0 0 10px 0;
+    color: #007aff;
+}
+
+.shortcuts {
+    text-align: center;
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 15px;
+}
+.mode-buttons {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.mode-btn {
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: 2px solid #007bff;
+    background: white;
+    color: #007bff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.mode-btn.active {
+    background: #007bff;
+    color: white;
+}
+
+.grammar-nav {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.grammar-nav button {
+    padding: 8px 16px;
+    margin: 0 10px;
+    border: 1px solid #ddd;
+    background: #f8f9fa;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#grammarContent {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 10px;
+}
+
+#grammarTopic {
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+#grammarExplanation {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.grammar-example {
+    background: white;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border-left: 4px solid #28a745;
+}
+
+.grammar-example .sentence {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.grammar-example .korean {
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.grammar-example .note {
+    font-size: 14px;
+    color: #007bff;
+    font-style: italic;
+}
