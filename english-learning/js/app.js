@@ -9,6 +9,8 @@ class ConversationDictation {
         this.quiz = [];
         this.currentQuizIndex = 0;
         this.selectedAnswer = null;
+        this.currentCategory = 'all';
+        this.filteredQuiz = [];
         this.init();
     }
 
@@ -34,9 +36,54 @@ class ConversationDictation {
         try {
             const response = await fetch('./data/quiz.json');
             this.quiz = await response.json();
+            this.createCategoryButtons();
         } catch (error) {
             console.error('퀴즈 데이터 로딩 실패:', error);
         }
+    }
+
+    createCategoryButtons() {
+        const container = document.getElementById('categoryButtons');
+        if (!container) return;
+        
+        container.innerHTML = '';
+        
+        const categories = ['all', ...new Set(this.quiz.map(q => q.category))];
+        const categoryNames = {
+            'all': '전체',
+            '시제': '시제',
+            '조동사': '조동사',
+            '전치사': '전치사',
+            '의문문': '의문문',
+            '관사': '관사',
+            '동명사/to부정사': '동명사/to부정사',
+            '비교급/최상급': '비교급/최상급',
+            '접속사': '접속사'
+        };
+        
+        categories.forEach((category, index) => {
+            const button = document.createElement('button');
+            button.className = `category-btn ${index === 0 ? 'active' : ''}`;
+            button.textContent = categoryNames[category] || category;
+            button.onclick = () => this.selectCategory(category);
+            container.appendChild(button);
+        });
+    }
+
+    selectCategory(category) {
+        this.currentCategory = category;
+        this.currentQuizIndex = 0;
+        
+        document.querySelectorAll('.category-btn').forEach(btn => btn.classList.remove('active'));
+        event.target.classList.add('active');
+        
+        if (category === 'all') {
+            this.filteredQuiz = this.quiz;
+        } else {
+            this.filteredQuiz = this.quiz.filter(q => q.category === category);
+        }
+        
+        this.showQuiz();
     }
 
     switchMode(mode) {
@@ -51,6 +98,9 @@ class ConversationDictation {
         if (mode === 'grammar' && this.grammar.length > 0) {
             this.showGrammar();
         } else if (mode === 'quiz' && this.quiz.length > 0) {
+            this.createCategoryButtons();
+            this.filteredQuiz = this.quiz;
+            this.currentQuizIndex = 0;
             this.showQuiz();
         }
     }
@@ -93,12 +143,12 @@ class ConversationDictation {
     }
 
     showQuiz() {
-        if (!this.quiz || this.quiz.length === 0) return;
+        if (!this.filteredQuiz || this.filteredQuiz.length === 0) return;
         
-        const quiz = this.quiz[this.currentQuizIndex];
+        const quiz = this.filteredQuiz[this.currentQuizIndex];
         document.getElementById('quizQuestion').textContent = quiz.question;
         document.getElementById('currentQuiz').textContent = this.currentQuizIndex + 1;
-        document.getElementById('totalQuiz').textContent = this.quiz.length;
+        document.getElementById('totalQuiz').textContent = this.filteredQuiz.length;
         
         const optionsDiv = document.getElementById('quizOptions');
         optionsDiv.innerHTML = '';
@@ -129,7 +179,7 @@ class ConversationDictation {
             return;
         }
         
-        const quiz = this.quiz[this.currentQuizIndex];
+        const quiz = this.filteredQuiz[this.currentQuizIndex];
         const resultDiv = document.getElementById('quizResult');
         
         if (this.selectedAnswer === quiz.answer) {
@@ -147,7 +197,7 @@ class ConversationDictation {
 
     nextQuiz() {
         this.currentQuizIndex++;
-        if (this.currentQuizIndex >= this.quiz.length) {
+        if (this.currentQuizIndex >= this.filteredQuiz.length) {
             alert('모든 문제를 완료했습니다! 🎉');
             this.currentQuizIndex = 0;
         }

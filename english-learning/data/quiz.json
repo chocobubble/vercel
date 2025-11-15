@@ -1,61 +1,475 @@
 [
   {
-    "question": "다음 중 과거 시제가 올바르게 사용된 문장은?",
+    "category": "시제",
+    "question": "I ____ to New York tomorrow.",
     "options": [
-      "I go to the store yesterday.",
-      "I went to the store yesterday.",
-      "I goes to the store yesterday.",
-      "I going to the store yesterday."
+      "go",
+      "went",
+      "am going",
+      "have gone"
     ],
-    "answer": 1,
-    "explanation": "과거를 나타내는 'yesterday'와 함께 과거형 'went'를 사용해야 합니다."
+    "answer": 2,
+    "explanation": "미래 계획을 나타낼 때 'be going to' 또는 현재진행형을 사용합니다."
   },
   {
-    "question": "'Can I have a menu, please?'의 의미는?",
+    "category": "시제",
+    "question": "We ____ at the hotel since Monday.",
     "options": [
-      "메뉴판을 주시겠어요?",
-      "메뉴를 먹어도 되나요?",
-      "메뉴가 있나요?",
-      "메뉴를 만들어 주세요."
+      "stay",
+      "stayed",
+      "have stayed",
+      "are staying"
+    ],
+    "answer": 2,
+    "explanation": "'since'는 현재완료와 함께 사용되어 과거부터 현재까지 계속되는 상황을 나타냅니다."
+  },
+  {
+    "category": "시제",
+    "question": "The flight ____ at 3 PM yesterday.",
+    "options": [
+      "arrives",
+      "arrived",
+      "has arrived",
+      "will arrive"
+    ],
+    "answer": 1,
+    "explanation": "'yesterday'는 과거 시점을 나타내므로 과거형을 사용합니다."
+  },
+  {
+    "category": "시제",
+    "question": "I ____ never ____ to Paris before.",
+    "options": [
+      "did / go",
+      "have / been",
+      "am / going",
+      "will / go"
+    ],
+    "answer": 1,
+    "explanation": "경험을 나타낼 때 'have been to'를 사용합니다."
+  },
+  {
+    "category": "시제",
+    "question": "She ____ her passport right now.",
+    "options": [
+      "looks for",
+      "is looking for",
+      "looked for",
+      "has looked for"
+    ],
+    "answer": 1,
+    "explanation": "'right now'는 현재 진행 중인 동작을 나타내므로 현재진행형을 사용합니다."
+  },
+  {
+    "category": "시제",
+    "question": "By the time we arrive, the restaurant ____.",
+    "options": [
+      "closes",
+      "closed",
+      "will close",
+      "will have closed"
+    ],
+    "answer": 3,
+    "explanation": "미래의 특정 시점까지 완료될 동작은 미래완료형을 사용합니다."
+  },
+  {
+    "category": "시제",
+    "question": "I ____ my ticket online last week.",
+    "options": [
+      "book",
+      "booked",
+      "have booked",
+      "am booking"
+    ],
+    "answer": 1,
+    "explanation": "'last week'는 명확한 과거 시점이므로 과거형을 사용합니다."
+  },
+  {
+    "category": "시제",
+    "question": "How long ____ you ____ English?",
+    "options": [
+      "do / study",
+      "did / study",
+      "have / studied",
+      "are / studying"
+    ],
+    "answer": 2,
+    "explanation": "'How long'과 함께 기간을 물을 때는 현재완료를 사용합니다."
+  },
+  {
+    "category": "시제",
+    "question": "The tour guide ____ us around the city tomorrow.",
+    "options": [
+      "shows",
+      "showed",
+      "will show",
+      "has shown"
+    ],
+    "answer": 2,
+    "explanation": "'tomorrow'는 미래를 나타내므로 미래형을 사용합니다."
+  },
+  {
+    "category": "시제",
+    "question": "I ____ breakfast when the phone rang.",
+    "options": [
+      "have",
+      "had",
+      "was having",
+      "have had"
+    ],
+    "answer": 2,
+    "explanation": "과거의 특정 시점에 진행 중이던 동작은 과거진행형을 사용합니다."
+  },
+  {
+    "category": "시제",
+    "question": "They ____ in Los Angeles for 5 years now.",
+    "options": [
+      "live",
+      "lived",
+      "have lived",
+      "are living"
+    ],
+    "answer": 2,
+    "explanation": "과거부터 현재까지의 기간을 나타낼 때 현재완료를 사용합니다."
+  },
+  {
+    "category": "시제",
+    "question": "The museum ____ at 9 AM every day.",
+    "options": [
+      "opens",
+      "opened",
+      "is opening",
+      "has opened"
     ],
     "answer": 0,
-    "explanation": "'Can I have~?'는 '~을 주시겠어요?'라는 정중한 요청 표현입니다."
+    "explanation": "규칙적인 일정이나 습관은 현재형을 사용합니다."
   },
   {
-    "question": "빈칸에 들어갈 알맞은 단어는? 'I'd like to ____ a table for two.'",
+    "category": "시제",
+    "question": "I ____ my luggage before I left the hotel.",
     "options": [
-      "make",
-      "do",
-      "reserve",
-      "take"
+      "pack",
+      "packed",
+      "have packed",
+      "had packed"
+    ],
+    "answer": 3,
+    "explanation": "과거의 특정 시점 이전에 완료된 동작은 과거완료를 사용합니다."
+  },
+  {
+    "category": "시제",
+    "question": "We ____ for a taxi for 30 minutes.",
+    "options": [
+      "wait",
+      "waited",
+      "have been waiting",
+      "will wait"
     ],
     "answer": 2,
-    "explanation": "'reserve a table'은 '테이블을 예약하다'라는 의미입니다."
+    "explanation": "과거부터 현재까지 계속되는 동작은 현재완료진행형을 사용합니다."
   },
   {
-    "question": "다음 중 현재완료 시제가 올바르게 사용된 문장은?",
+    "category": "시제",
+    "question": "The plane ____ off in 10 minutes.",
     "options": [
-      "I have went to Paris.",
-      "I has been to Paris.",
-      "I have been to Paris.",
-      "I have be to Paris."
+      "takes",
+      "took",
+      "is taking",
+      "has taken"
     ],
     "answer": 2,
-    "explanation": "현재완료는 'have/has + 과거분사' 형태입니다. 'been'은 'be'의 과거분사입니다."
+    "explanation": "가까운 미래의 예정된 일은 현재진행형으로 표현할 수 있습니다."
   },
   {
-    "question": "'How much is it?'의 의미는?",
+    "category": "조동사",
+    "question": "____ you help me with my luggage?",
     "options": [
-      "얼마나 많나요?",
-      "얼마예요?",
-      "어떻게 하나요?",
-      "몇 개예요?"
+      "Can",
+      "Must",
+      "Should",
+      "May"
+    ],
+    "answer": 0,
+    "explanation": "'Can you~?'는 부탁할 때 사용하는 표현입니다."
+  },
+  {
+    "category": "조동사",
+    "question": "You ____ show your passport at the airport.",
+    "options": [
+      "can",
+      "must",
+      "may",
+      "would"
     ],
     "answer": 1,
-    "explanation": "'How much is it?'은 가격을 물어볼 때 사용하는 표현입니다."
+    "explanation": "'must'는 의무나 필수 사항을 나타냅니다."
   },
   {
-    "question": "빈칸에 들어갈 알맞은 전치사는? 'I'm looking ____ a gift for my friend.'",
+    "category": "조동사",
+    "question": "____ I have a window seat, please?",
+    "options": [
+      "Must",
+      "Should",
+      "Could",
+      "Will"
+    ],
+    "answer": 2,
+    "explanation": "'Could I~?'는 정중한 요청 표현입니다."
+  },
+  {
+    "category": "조동사",
+    "question": "You ____ try the local food. It's delicious!",
+    "options": [
+      "can",
+      "must",
+      "should",
+      "would"
+    ],
+    "answer": 2,
+    "explanation": "'should'는 조언이나 권유를 나타냅니다."
+  },
+  {
+    "category": "조동사",
+    "question": "Passengers ____ not smoke on the plane.",
+    "options": [
+      "can",
+      "may",
+      "must",
+      "would"
+    ],
+    "answer": 2,
+    "explanation": "'must not'은 금지를 나타냅니다."
+  },
+  {
+    "category": "조동사",
+    "question": "____ you like some coffee?",
+    "options": [
+      "Can",
+      "Would",
+      "Must",
+      "Should"
+    ],
+    "answer": 1,
+    "explanation": "'Would you like~?'는 정중하게 권유할 때 사용합니다."
+  },
+  {
+    "category": "조동사",
+    "question": "I ____ speak a little Spanish.",
+    "options": [
+      "can",
+      "must",
+      "should",
+      "would"
+    ],
+    "answer": 0,
+    "explanation": "'can'은 능력을 나타냅니다."
+  },
+  {
+    "category": "조동사",
+    "question": "You ____ book your hotel in advance.",
+    "options": [
+      "can",
+      "may",
+      "should",
+      "would"
+    ],
+    "answer": 2,
+    "explanation": "'should'는 충고나 권고를 나타냅니다."
+  },
+  {
+    "category": "조동사",
+    "question": "____ I use your phone?",
+    "options": [
+      "Must",
+      "Should",
+      "May",
+      "Will"
+    ],
+    "answer": 2,
+    "explanation": "'May I~?'는 허락을 구하는 정중한 표현입니다."
+  },
+  {
+    "category": "조동사",
+    "question": "We ____ leave now or we'll miss the flight.",
+    "options": [
+      "can",
+      "may",
+      "must",
+      "would"
+    ],
+    "answer": 2,
+    "explanation": "'must'는 강한 필요성을 나타냅니다."
+  },
+  {
+    "category": "조동사",
+    "question": "____ you tell me where the subway is?",
+    "options": [
+      "Can",
+      "Must",
+      "May",
+      "Shall"
+    ],
+    "answer": 0,
+    "explanation": "'Can you~?'는 정보를 요청할 때 사용합니다."
+  },
+  {
+    "category": "조동사",
+    "question": "You ____ wear comfortable shoes for walking.",
+    "options": [
+      "can",
+      "must",
+      "should",
+      "would"
+    ],
+    "answer": 2,
+    "explanation": "'should'는 조언을 나타냅니다."
+  },
+  {
+    "category": "조동사",
+    "question": "I ____ like to check out, please.",
+    "options": [
+      "can",
+      "must",
+      "would",
+      "should"
+    ],
+    "answer": 2,
+    "explanation": "'would like to'는 정중한 의사 표현입니다."
+  },
+  {
+    "category": "조동사",
+    "question": "You ____ not take photos in the museum.",
+    "options": [
+      "can",
+      "may",
+      "should",
+      "would"
+    ],
+    "answer": 1,
+    "explanation": "'may not'은 금지를 나타냅니다."
+  },
+  {
+    "category": "조동사",
+    "question": "____ we go to the beach today?",
+    "options": [
+      "Must",
+      "Should",
+      "Shall",
+      "May"
+    ],
+    "answer": 2,
+    "explanation": "'Shall we~?'는 제안할 때 사용하는 표현입니다."
+  },
+  {
+    "category": "전치사",
+    "question": "I'll meet you ____ the airport.",
+    "options": [
+      "in",
+      "at",
+      "on",
+      "to"
+    ],
+    "answer": 1,
+    "explanation": "특정 장소 앞에는 'at'을 사용합니다."
+  },
+  {
+    "category": "전치사",
+    "question": "The hotel is ____ Fifth Avenue.",
+    "options": [
+      "in",
+      "at",
+      "on",
+      "to"
+    ],
+    "answer": 2,
+    "explanation": "거리 이름 앞에는 'on'을 사용합니다."
+  },
+  {
+    "category": "전치사",
+    "question": "We arrived ____ New York yesterday.",
+    "options": [
+      "in",
+      "at",
+      "on",
+      "to"
+    ],
+    "answer": 0,
+    "explanation": "도시나 국가 앞에는 'in'을 사용합니다."
+  },
+  {
+    "category": "전치사",
+    "question": "The flight leaves ____ 3 PM.",
+    "options": [
+      "in",
+      "at",
+      "on",
+      "for"
+    ],
+    "answer": 1,
+    "explanation": "정확한 시각 앞에는 'at'을 사용합니다."
+  },
+  {
+    "category": "전치사",
+    "question": "I'm going ____ the museum tomorrow.",
+    "options": [
+      "in",
+      "at",
+      "on",
+      "to"
+    ],
+    "answer": 3,
+    "explanation": "이동의 목적지를 나타낼 때 'to'를 사용합니다."
+  },
+  {
+    "category": "전치사",
+    "question": "We're staying here ____ three days.",
+    "options": [
+      "in",
+      "at",
+      "on",
+      "for"
+    ],
+    "answer": 3,
+    "explanation": "기간을 나타낼 때 'for'를 사용합니다."
+  },
+  {
+    "category": "전치사",
+    "question": "The restaurant is ____ the second floor.",
+    "options": [
+      "in",
+      "at",
+      "on",
+      "to"
+    ],
+    "answer": 2,
+    "explanation": "층수를 나타낼 때 'on'을 사용합니다."
+  },
+  {
+    "category": "전치사",
+    "question": "I'll be back ____ Monday.",
+    "options": [
+      "in",
+      "at",
+      "on",
+      "for"
+    ],
+    "answer": 2,
+    "explanation": "요일 앞에는 'on'을 사용합니다."
+  },
+  {
+    "category": "전치사",
+    "question": "The tour starts ____ the morning.",
+    "options": [
+      "in",
+      "at",
+      "on",
+      "for"
+    ],
+    "answer": 0,
+    "explanation": "아침/오후/저녁 앞에는 'in'을 사용합니다."
+  },
+  {
+    "category": "전치사",
+    "question": "I'm looking ____ my passport.",
     "options": [
       "at",
       "for",
@@ -63,50 +477,726 @@
       "on"
     ],
     "answer": 1,
-    "explanation": "'look for'는 '~을 찾다'라는 의미의 구동사입니다."
+    "explanation": "'look for'는 '~을 찾다'라는 의미입니다."
   },
   {
-    "question": "다음 중 문법적으로 올바른 문장은?",
+    "category": "전치사",
+    "question": "We walked ____ the park.",
     "options": [
-      "She don't like coffee.",
-      "She doesn't likes coffee.",
-      "She doesn't like coffee.",
-      "She not like coffee."
+      "in",
+      "at",
+      "through",
+      "on"
     ],
     "answer": 2,
-    "explanation": "3인칭 단수 주어는 'doesn't + 동사원형'을 사용합니다."
+    "explanation": "'through'는 '~을 통과하여'라는 의미입니다."
   },
   {
-    "question": "'Could you help me?'의 의미는?",
+    "category": "전치사",
+    "question": "The bus stop is ____ front of the hotel.",
     "options": [
-      "당신을 도와줄 수 있나요?",
-      "저를 도와주시겠어요?",
-      "도움이 필요하세요?",
-      "도와줘야 하나요?"
+      "in",
+      "at",
+      "on",
+      "to"
+    ],
+    "answer": 0,
+    "explanation": "'in front of'는 '~앞에'라는 의미입니다."
+  },
+  {
+    "category": "전치사",
+    "question": "I paid ____ credit card.",
+    "options": [
+      "by",
+      "with",
+      "in",
+      "for"
+    ],
+    "answer": 0,
+    "explanation": "지불 수단 앞에는 'by'를 사용합니다."
+  },
+  {
+    "category": "전치사",
+    "question": "We're traveling ____ train.",
+    "options": [
+      "by",
+      "with",
+      "in",
+      "on"
+    ],
+    "answer": 0,
+    "explanation": "교통수단 앞에는 'by'를 사용합니다."
+  },
+  {
+    "category": "전치사",
+    "question": "The gift is ____ you.",
+    "options": [
+      "to",
+      "for",
+      "at",
+      "on"
     ],
     "answer": 1,
-    "explanation": "'Could you~?'는 정중하게 부탁할 때 사용하는 표현입니다."
+    "explanation": "'for'는 '~을 위한'이라는 의미입니다."
   },
   {
-    "question": "빈칸에 들어갈 알맞은 단어는? 'I'm ____ forward to seeing you.'",
+    "category": "의문문",
+    "question": "____ is the nearest subway station?",
     "options": [
-      "look",
-      "looks",
-      "looked",
-      "looking"
+      "What",
+      "Where",
+      "When",
+      "How"
     ],
-    "answer": 3,
-    "explanation": "'look forward to -ing'는 '~을 기대하다'라는 의미이며, 현재진행형으로 자주 사용됩니다."
+    "answer": 1,
+    "explanation": "장소를 물을 때는 'Where'를 사용합니다."
   },
   {
-    "question": "다음 중 비교급이 올바르게 사용된 문장은?",
+    "category": "의문문",
+    "question": "____ does the tour start?",
     "options": [
-      "This book is more better than that one.",
-      "This book is gooder than that one.",
-      "This book is better than that one.",
-      "This book is more good than that one."
+      "What",
+      "Where",
+      "When",
+      "Who"
     ],
     "answer": 2,
-    "explanation": "'good'의 비교급은 불규칙 변화로 'better'입니다."
+    "explanation": "시간을 물을 때는 'When'을 사용합니다."
+  },
+  {
+    "category": "의문문",
+    "question": "____ much is this ticket?",
+    "options": [
+      "What",
+      "Where",
+      "How",
+      "Why"
+    ],
+    "answer": 2,
+    "explanation": "가격을 물을 때는 'How much'를 사용합니다."
+  },
+  {
+    "category": "의문문",
+    "question": "____ do you spell your name?",
+    "options": [
+      "What",
+      "Where",
+      "How",
+      "Why"
+    ],
+    "answer": 2,
+    "explanation": "방법을 물을 때는 'How'를 사용합니다."
+  },
+  {
+    "category": "의문문",
+    "question": "____ is your flight number?",
+    "options": [
+      "What",
+      "Where",
+      "When",
+      "How"
+    ],
+    "answer": 0,
+    "explanation": "무엇인지 물을 때는 'What'을 사용합니다."
+  },
+  {
+    "category": "의문문",
+    "question": "____ long does it take to get there?",
+    "options": [
+      "What",
+      "Where",
+      "When",
+      "How"
+    ],
+    "answer": 3,
+    "explanation": "기간을 물을 때는 'How long'을 사용합니다."
+  },
+  {
+    "category": "의문문",
+    "question": "____ are you traveling alone?",
+    "options": [
+      "What",
+      "Where",
+      "Why",
+      "How"
+    ],
+    "answer": 2,
+    "explanation": "이유를 물을 때는 'Why'를 사용합니다."
+  },
+  {
+    "category": "의문문",
+    "question": "____ is the manager?",
+    "options": [
+      "What",
+      "Who",
+      "When",
+      "How"
+    ],
+    "answer": 1,
+    "explanation": "사람을 물을 때는 'Who'를 사용합니다."
+  },
+  {
+    "category": "의문문",
+    "question": "____ many people are in your group?",
+    "options": [
+      "What",
+      "Where",
+      "How",
+      "Why"
+    ],
+    "answer": 2,
+    "explanation": "수량을 물을 때는 'How many'를 사용합니다."
+  },
+  {
+    "category": "의문문",
+    "question": "____ time is check-out?",
+    "options": [
+      "What",
+      "Where",
+      "When",
+      "How"
+    ],
+    "answer": 0,
+    "explanation": "시각을 물을 때는 'What time'을 사용합니다."
+  },
+  {
+    "category": "의문문",
+    "question": "____ far is the beach from here?",
+    "options": [
+      "What",
+      "Where",
+      "How",
+      "Why"
+    ],
+    "answer": 2,
+    "explanation": "거리를 물을 때는 'How far'를 사용합니다."
+  },
+  {
+    "category": "의문문",
+    "question": "____ kind of food do you like?",
+    "options": [
+      "What",
+      "Where",
+      "When",
+      "How"
+    ],
+    "answer": 0,
+    "explanation": "종류를 물을 때는 'What kind of'를 사용합니다."
+  },
+  {
+    "category": "의문문",
+    "question": "____ often do the buses run?",
+    "options": [
+      "What",
+      "Where",
+      "How",
+      "Why"
+    ],
+    "answer": 2,
+    "explanation": "빈도를 물을 때는 'How often'을 사용합니다."
+  },
+  {
+    "category": "의문문",
+    "question": "____ did you book your hotel?",
+    "options": [
+      "What",
+      "Where",
+      "When",
+      "How"
+    ],
+    "answer": 1,
+    "explanation": "장소를 물을 때는 'Where'를 사용합니다."
+  },
+  {
+    "category": "의문문",
+    "question": "____ old is this building?",
+    "options": [
+      "What",
+      "Where",
+      "How",
+      "Why"
+    ],
+    "answer": 2,
+    "explanation": "나이를 물을 때는 'How old'를 사용합니다."
+  },
+  {
+    "category": "관사",
+    "question": "I need ____ taxi to the airport.",
+    "options": [
+      "a",
+      "an",
+      "the",
+      "없음"
+    ],
+    "answer": 0,
+    "explanation": "처음 언급되는 단수 명사 앞에는 'a'를 사용합니다."
+  },
+  {
+    "category": "관사",
+    "question": "Can you recommend ____ good restaurant?",
+    "options": [
+      "a",
+      "an",
+      "the",
+      "없음"
+    ],
+    "answer": 0,
+    "explanation": "불특정한 단수 명사 앞에는 'a'를 사용합니다."
+  },
+  {
+    "category": "관사",
+    "question": "Where is ____ bathroom?",
+    "options": [
+      "a",
+      "an",
+      "the",
+      "없음"
+    ],
+    "answer": 2,
+    "explanation": "특정한 것을 가리킬 때는 'the'를 사용합니다."
+  },
+  {
+    "category": "관사",
+    "question": "I'd like ____ apple, please.",
+    "options": [
+      "a",
+      "an",
+      "the",
+      "없음"
+    ],
+    "answer": 1,
+    "explanation": "모음으로 시작하는 단어 앞에는 'an'을 사용합니다."
+  },
+  {
+    "category": "관사",
+    "question": "This is ____ best hotel in town.",
+    "options": [
+      "a",
+      "an",
+      "the",
+      "없음"
+    ],
+    "answer": 2,
+    "explanation": "최상급 앞에는 'the'를 사용합니다."
+  },
+  {
+    "category": "관사",
+    "question": "I'm staying at ____ Hilton Hotel.",
+    "options": [
+      "a",
+      "an",
+      "the",
+      "없음"
+    ],
+    "answer": 2,
+    "explanation": "고유명사 중 호텔 이름 앞에는 'the'를 사용합니다."
+  },
+  {
+    "category": "관사",
+    "question": "Do you have ____ map?",
+    "options": [
+      "a",
+      "an",
+      "the",
+      "없음"
+    ],
+    "answer": 0,
+    "explanation": "불특정한 단수 명사 앞에는 'a'를 사용합니다."
+  },
+  {
+    "category": "관사",
+    "question": "I love ____ Italian food.",
+    "options": [
+      "a",
+      "an",
+      "the",
+      "없음"
+    ],
+    "answer": 3,
+    "explanation": "일반적인 것을 말할 때는 관사를 사용하지 않습니다."
+  },
+  {
+    "category": "관사",
+    "question": "We visited ____ Statue of Liberty.",
+    "options": [
+      "a",
+      "an",
+      "the",
+      "없음"
+    ],
+    "answer": 2,
+    "explanation": "유명한 건축물이나 기념물 앞에는 'the'를 사용합니다."
+  },
+  {
+    "category": "관사",
+    "question": "I need ____ information about tours.",
+    "options": [
+      "a",
+      "an",
+      "the",
+      "없음"
+    ],
+    "answer": 3,
+    "explanation": "셀 수 없는 명사 앞에는 관사를 사용하지 않습니다."
+  },
+  {
+    "category": "동명사/to부정사",
+    "question": "I enjoy ____ new places.",
+    "options": [
+      "visit",
+      "to visit",
+      "visiting",
+      "visited"
+    ],
+    "answer": 2,
+    "explanation": "'enjoy' 뒤에는 동명사(-ing)를 사용합니다."
+  },
+  {
+    "category": "동명사/to부정사",
+    "question": "I want ____ a souvenir.",
+    "options": [
+      "buy",
+      "to buy",
+      "buying",
+      "bought"
+    ],
+    "answer": 1,
+    "explanation": "'want' 뒤에는 to부정사를 사용합니다."
+  },
+  {
+    "category": "동명사/to부정사",
+    "question": "Would you mind ____ the window?",
+    "options": [
+      "close",
+      "to close",
+      "closing",
+      "closed"
+    ],
+    "answer": 2,
+    "explanation": "'mind' 뒤에는 동명사(-ing)를 사용합니다."
+  },
+  {
+    "category": "동명사/to부정사",
+    "question": "I decided ____ a taxi.",
+    "options": [
+      "take",
+      "to take",
+      "taking",
+      "took"
+    ],
+    "answer": 1,
+    "explanation": "'decide' 뒤에는 to부정사를 사용합니다."
+  },
+  {
+    "category": "동명사/to부정사",
+    "question": "I'm looking forward to ____ you.",
+    "options": [
+      "see",
+      "seeing",
+      "saw",
+      "seen"
+    ],
+    "answer": 1,
+    "explanation": "'look forward to' 뒤에는 동명사(-ing)를 사용합니다."
+  },
+  {
+    "category": "동명사/to부정사",
+    "question": "I hope ____ you again soon.",
+    "options": [
+      "see",
+      "to see",
+      "seeing",
+      "saw"
+    ],
+    "answer": 1,
+    "explanation": "'hope' 뒤에는 to부정사를 사용합니다."
+  },
+  {
+    "category": "동명사/to부정사",
+    "question": "I finished ____ my suitcase.",
+    "options": [
+      "pack",
+      "to pack",
+      "packing",
+      "packed"
+    ],
+    "answer": 2,
+    "explanation": "'finish' 뒤에는 동명사(-ing)를 사용합니다."
+  },
+  {
+    "category": "동명사/to부정사",
+    "question": "I need ____ my reservation.",
+    "options": [
+      "confirm",
+      "to confirm",
+      "confirming",
+      "confirmed"
+    ],
+    "answer": 1,
+    "explanation": "'need' 뒤에는 to부정사를 사용합니다."
+  },
+  {
+    "category": "동명사/to부정사",
+    "question": "I avoid ____ during rush hour.",
+    "options": [
+      "travel",
+      "to travel",
+      "traveling",
+      "traveled"
+    ],
+    "answer": 2,
+    "explanation": "'avoid' 뒤에는 동명사(-ing)를 사용합니다."
+  },
+  {
+    "category": "동명사/to부정사",
+    "question": "I plan ____ early tomorrow.",
+    "options": [
+      "leave",
+      "to leave",
+      "leaving",
+      "left"
+    ],
+    "answer": 1,
+    "explanation": "'plan' 뒤에는 to부정사를 사용합니다."
+  },
+  {
+    "category": "비교급/최상급",
+    "question": "This hotel is ____ than that one.",
+    "options": [
+      "cheap",
+      "cheaper",
+      "cheapest",
+      "more cheap"
+    ],
+    "answer": 1,
+    "explanation": "두 개를 비교할 때는 비교급(-er)을 사용합니다."
+  },
+  {
+    "category": "비교급/최상급",
+    "question": "This is the ____ restaurant in the city.",
+    "options": [
+      "good",
+      "better",
+      "best",
+      "more good"
+    ],
+    "answer": 2,
+    "explanation": "'good'의 최상급은 'best'입니다."
+  },
+  {
+    "category": "비교급/최상급",
+    "question": "The subway is ____ than a taxi.",
+    "options": [
+      "fast",
+      "faster",
+      "fastest",
+      "more fast"
+    ],
+    "answer": 1,
+    "explanation": "비교급은 '-er'을 붙여 만듭니다."
+  },
+  {
+    "category": "비교급/최상급",
+    "question": "This is the ____ expensive hotel I've ever stayed at.",
+    "options": [
+      "more",
+      "most",
+      "much",
+      "many"
+    ],
+    "answer": 1,
+    "explanation": "긴 형용사의 최상급은 'most'를 앞에 붙입니다."
+  },
+  {
+    "category": "비교급/최상급",
+    "question": "New York is ____ than Boston.",
+    "options": [
+      "big",
+      "bigger",
+      "biggest",
+      "more big"
+    ],
+    "answer": 1,
+    "explanation": "단음절 형용사의 비교급은 '-er'을 붙입니다."
+  },
+  {
+    "category": "비교급/최상급",
+    "question": "This tour is ____ interesting than the other one.",
+    "options": [
+      "much",
+      "more",
+      "most",
+      "many"
+    ],
+    "answer": 1,
+    "explanation": "긴 형용사의 비교급은 'more'를 앞에 붙입니다."
+  },
+  {
+    "category": "비교급/최상급",
+    "question": "What's the ____ way to get to the airport?",
+    "options": [
+      "quick",
+      "quicker",
+      "quickest",
+      "more quick"
+    ],
+    "answer": 2,
+    "explanation": "최상급은 '-est'를 붙여 만듭니다."
+  },
+  {
+    "category": "비교급/최상급",
+    "question": "The weather today is ____ than yesterday.",
+    "options": [
+      "bad",
+      "worse",
+      "worst",
+      "more bad"
+    ],
+    "answer": 1,
+    "explanation": "'bad'의 비교급은 불규칙 변화로 'worse'입니다."
+  },
+  {
+    "category": "비교급/최상급",
+    "question": "This is the ____ beautiful beach I've seen.",
+    "options": [
+      "more",
+      "most",
+      "much",
+      "many"
+    ],
+    "answer": 1,
+    "explanation": "긴 형용사의 최상급은 'most'를 앞에 붙입니다."
+  },
+  {
+    "category": "비교급/최상급",
+    "question": "Flying is ____ comfortable than driving.",
+    "options": [
+      "much",
+      "more",
+      "most",
+      "many"
+    ],
+    "answer": 1,
+    "explanation": "긴 형용사의 비교급은 'more'를 앞에 붙입니다."
+  },
+  {
+    "category": "접속사",
+    "question": "I'm tired ____ I want to rest.",
+    "options": [
+      "and",
+      "but",
+      "so",
+      "because"
+    ],
+    "answer": 2,
+    "explanation": "'so'는 결과를 나타내는 접속사입니다."
+  },
+  {
+    "category": "접속사",
+    "question": "I like coffee ____ I don't like tea.",
+    "options": [
+      "and",
+      "but",
+      "so",
+      "because"
+    ],
+    "answer": 1,
+    "explanation": "'but'은 대조를 나타내는 접속사입니다."
+  },
+  {
+    "category": "접속사",
+    "question": "I stayed home ____ it was raining.",
+    "options": [
+      "and",
+      "but",
+      "so",
+      "because"
+    ],
+    "answer": 3,
+    "explanation": "'because'는 이유를 나타내는 접속사입니다."
+  },
+  {
+    "category": "접속사",
+    "question": "We visited the museum ____ the park.",
+    "options": [
+      "and",
+      "but",
+      "so",
+      "because"
+    ],
+    "answer": 0,
+    "explanation": "'and'는 나열을 나타내는 접속사입니다."
+  },
+  {
+    "category": "접속사",
+    "question": "The hotel is expensive ____ it's very nice.",
+    "options": [
+      "and",
+      "but",
+      "so",
+      "because"
+    ],
+    "answer": 1,
+    "explanation": "'but'은 대조를 나타냅니다."
+  },
+  {
+    "category": "접속사",
+    "question": "I'm learning English ____ I want to travel.",
+    "options": [
+      "and",
+      "but",
+      "so",
+      "because"
+    ],
+    "answer": 3,
+    "explanation": "'because'는 이유를 설명합니다."
+  },
+  {
+    "category": "접속사",
+    "question": "It's late ____ we should go.",
+    "options": [
+      "and",
+      "but",
+      "so",
+      "because"
+    ],
+    "answer": 2,
+    "explanation": "'so'는 결과나 결론을 나타냅니다."
+  },
+  {
+    "category": "접속사",
+    "question": "The food is good ____ cheap.",
+    "options": [
+      "and",
+      "but",
+      "so",
+      "because"
+    ],
+    "answer": 0,
+    "explanation": "'and'는 두 가지를 연결합니다."
+  },
+  {
+    "category": "접속사",
+    "question": "I want to go ____ I'm too busy.",
+    "options": [
+      "and",
+      "but",
+      "so",
+      "because"
+    ],
+    "answer": 1,
+    "explanation": "'but'은 반대되는 내용을 연결합니다."
+  },
+  {
+    "category": "접속사",
+    "question": "Bring an umbrella ____ it might rain.",
+    "options": [
+      "and",
+      "but",
+      "so",
+      "because"
+    ],
+    "answer": 3,
+    "explanation": "'because'는 이유를 나타냅니다."
   }
 ]

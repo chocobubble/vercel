@@ -226,3 +226,25 @@ h1 {
     cursor: pointer;
     font-size: 16px;
 }
+
+.category-btn {
+    background: #f8f9fa;
+    color: #333;
+    border: 2px solid #d1d1d6;
+    padding: 8px 16px;
+    margin: 5px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: all 0.2s;
+}
+
+.category-btn:hover {
+    background: #e9ecef;
+}
+
+.category-btn.active {
+    background: #007aff;
+    color: white;
+    border-color: #007aff;
+}
