@@ -14,6 +14,7 @@
         <div class="mode-buttons">
             <button class="mode-btn active" onclick="app.switchMode('conversation')">대화 연습</button>
             <button class="mode-btn" onclick="app.switchMode('grammar')">문법 공부</button>
+            <button class="mode-btn" onclick="app.switchMode('quiz')">문제 풀기</button>
         </div>
 
         <div id="conversationMode">
@@ -59,6 +60,19 @@
                 <h3 id="grammarTopic"></h3>
                 <p id="grammarExplanation"></p>
                 <div id="grammarExamples"></div>
+            </div>
+        </div>
+
+        <div id="quizMode" style="display: none;">
+            <div class="progress">
+                <span id="currentQuiz">1</span> / <span id="totalQuiz">10</span>
+            </div>
+            <div id="quizContent">
+                <h3 id="quizQuestion"></h3>
+                <div id="quizOptions"></div>
+                <button id="quizSubmit" class="check-btn" onclick="app.submitQuiz()">정답 확인</button>
+                <div id="quizResult" class="result"></div>
+                <button id="quizNext" class="next-btn" onclick="app.nextQuiz()" style="display: none;">다음 문제</button>
             </div>
         </div>
     </div>

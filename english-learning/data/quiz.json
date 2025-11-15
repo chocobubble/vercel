@@ -1,0 +1,112 @@
+[
+  {
+    "question": "다음 중 과거 시제가 올바르게 사용된 문장은?",
+    "options": [
+      "I go to the store yesterday.",
+      "I went to the store yesterday.",
+      "I goes to the store yesterday.",
+      "I going to the store yesterday."
+    ],
+    "answer": 1,
+    "explanation": "과거를 나타내는 'yesterday'와 함께 과거형 'went'를 사용해야 합니다."
+  },
+  {
+    "question": "'Can I have a menu, please?'의 의미는?",
+    "options": [
+      "메뉴판을 주시겠어요?",
+      "메뉴를 먹어도 되나요?",
+      "메뉴가 있나요?",
+      "메뉴를 만들어 주세요."
+    ],
+    "answer": 0,
+    "explanation": "'Can I have~?'는 '~을 주시겠어요?'라는 정중한 요청 표현입니다."
+  },
+  {
+    "question": "빈칸에 들어갈 알맞은 단어는? 'I'd like to ____ a table for two.'",
+    "options": [
+      "make",
+      "do",
+      "reserve",
+      "take"
+    ],
+    "answer": 2,
+    "explanation": "'reserve a table'은 '테이블을 예약하다'라는 의미입니다."
+  },
+  {
+    "question": "다음 중 현재완료 시제가 올바르게 사용된 문장은?",
+    "options": [
+      "I have went to Paris.",
+      "I has been to Paris.",
+      "I have been to Paris.",
+      "I have be to Paris."
+    ],
+    "answer": 2,
+    "explanation": "현재완료는 'have/has + 과거분사' 형태입니다. 'been'은 'be'의 과거분사입니다."
+  },
+  {
+    "question": "'How much is it?'의 의미는?",
+    "options": [
+      "얼마나 많나요?",
+      "얼마예요?",
+      "어떻게 하나요?",
+      "몇 개예요?"
+    ],
+    "answer": 1,
+    "explanation": "'How much is it?'은 가격을 물어볼 때 사용하는 표현입니다."
+  },
+  {
+    "question": "빈칸에 들어갈 알맞은 전치사는? 'I'm looking ____ a gift for my friend.'",
+    "options": [
+      "at",
+      "for",
+      "to",
+      "on"
+    ],
+    "answer": 1,
+    "explanation": "'look for'는 '~을 찾다'라는 의미의 구동사입니다."
+  },
+  {
+    "question": "다음 중 문법적으로 올바른 문장은?",
+    "options": [
+      "She don't like coffee.",
+      "She doesn't likes coffee.",
+      "She doesn't like coffee.",
+      "She not like coffee."
+    ],
+    "answer": 2,
+    "explanation": "3인칭 단수 주어는 'doesn't + 동사원형'을 사용합니다."
+  },
+  {
+    "question": "'Could you help me?'의 의미는?",
+    "options": [
+      "당신을 도와줄 수 있나요?",
+      "저를 도와주시겠어요?",
+      "도움이 필요하세요?",
+      "도와줘야 하나요?"
+    ],
+    "answer": 1,
+    "explanation": "'Could you~?'는 정중하게 부탁할 때 사용하는 표현입니다."
+  },
+  {
+    "question": "빈칸에 들어갈 알맞은 단어는? 'I'm ____ forward to seeing you.'",
+    "options": [
+      "look",
+      "looks",
+      "looked",
+      "looking"
+    ],
+    "answer": 3,
+    "explanation": "'look forward to -ing'는 '~을 기대하다'라는 의미이며, 현재진행형으로 자주 사용됩니다."
+  },
+  {
+    "question": "다음 중 비교급이 올바르게 사용된 문장은?",
+    "options": [
+      "This book is more better than that one.",
+      "This book is gooder than that one.",
+      "This book is better than that one.",
+      "This book is more good than that one."
+    ],
+    "answer": 2,
+    "explanation": "'good'의 비교급은 불규칙 변화로 'better'입니다."
+  }
+]

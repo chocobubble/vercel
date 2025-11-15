@@ -6,12 +6,16 @@ class ConversationDictation {
         this.grammar = {};
         this.currentGrammarIndex = 0;
         this.currentMode = 'conversation';
+        this.quiz = [];
+        this.currentQuizIndex = 0;
+        this.selectedAnswer = null;
         this.init();
     }
 
     async init() {
         await this.loadScenarios();
         await this.loadGrammar();
+        await this.loadQuiz();
         this.setupEventListeners();
         this.selectScenario(this.currentScenario);
     }
@@ -26,30 +30,28 @@ class ConversationDictation {
         }
     }
 
+    async loadQuiz() {
+        try {
+            const response = await fetch('./data/quiz.json');
+            this.quiz = await response.json();
+        } catch (error) {
+            console.error('퀴즈 데이터 로딩 실패:', error);
+        }
+    }
+
     switchMode(mode) {
         this.currentMode = mode;
         document.querySelectorAll('.mode-btn').forEach(btn => btn.classList.remove('active'));
         event.target.classList.add('active');
         
-        const conversationElements = ['.progress', '.controls', '.input-section', '.result'];
+        document.getElementById('conversationMode').style.display = mode === 'conversation' ? 'block' : 'none';
+        document.getElementById('grammarMode').style.display = mode === 'grammar' ? 'block' : 'none';
+        document.getElementById('quizMode').style.display = mode === 'quiz' ? 'block' : 'none';
         
-        if (mode === 'conversation') {
-            document.getElementById('conversationMode').style.display = 'block';
-            document.getElementById('grammarMode').style.display = 'none';
-            conversationElements.forEach(selector => {
-                const element = document.querySelector(selector);
-                if (element) element.style.display = 'block';
-            });
-        } else {
-            document.getElementById('conversationMode').style.display = 'none';
-            document.getElementById('grammarMode').style.display = 'block';
-            conversationElements.forEach(selector => {
-                const element = document.querySelector(selector);
-                if (element) element.style.display = 'none';
-            });
-            if (this.grammar.length > 0) {
-                this.showGrammar();
-            }
+        if (mode === 'grammar' && this.grammar.length > 0) {
+            this.showGrammar();
+        } else if (mode === 'quiz' && this.quiz.length > 0) {
+            this.showQuiz();
         }
     }
 
@@ -88,6 +90,68 @@ class ConversationDictation {
             this.currentGrammarIndex--;
             this.showGrammar();
         }
+    }
+
+    showQuiz() {
+        if (!this.quiz || this.quiz.length === 0) return;
+        
+        const quiz = this.quiz[this.currentQuizIndex];
+        document.getElementById('quizQuestion').textContent = quiz.question;
+        document.getElementById('currentQuiz').textContent = this.currentQuizIndex + 1;
+        document.getElementById('totalQuiz').textContent = this.quiz.length;
+        
+        const optionsDiv = document.getElementById('quizOptions');
+        optionsDiv.innerHTML = '';
+        
+        quiz.options.forEach((option, index) => {
+            const optionDiv = document.createElement('div');
+            optionDiv.className = 'quiz-option';
+            optionDiv.innerHTML = `
+                <input type="radio" name="quiz" id="option${index}" value="${index}">
+                <label for="option${index}">${option}</label>
+            `;
+            optionDiv.onclick = () => {
+                document.getElementById(`option${index}`).checked = true;
+                this.selectedAnswer = index;
+            };
+            optionsDiv.appendChild(optionDiv);
+        });
+        
+        this.selectedAnswer = null;
+        document.getElementById('quizResult').style.display = 'none';
+        document.getElementById('quizNext').style.display = 'none';
+        document.getElementById('quizSubmit').style.display = 'block';
+    }
+
+    submitQuiz() {
+        if (this.selectedAnswer === null) {
+            alert('답을 선택해주세요!');
+            return;
+        }
+        
+        const quiz = this.quiz[this.currentQuizIndex];
+        const resultDiv = document.getElementById('quizResult');
+        
+        if (this.selectedAnswer === quiz.answer) {
+            resultDiv.className = 'result correct';
+            resultDiv.innerHTML = `🎉 정답입니다!<br><br><strong>설명:</strong> ${quiz.explanation}`;
+        } else {
+            resultDiv.className = 'result incorrect';
+            resultDiv.innerHTML = `❌ 틀렸습니다.<br><br><strong>정답:</strong> ${quiz.options[quiz.answer]}<br><br><strong>설명:</strong> ${quiz.explanation}`;
+        }
+        
+        resultDiv.style.display = 'block';
+        document.getElementById('quizSubmit').style.display = 'none';
+        document.getElementById('quizNext').style.display = 'block';
+    }
+
+    nextQuiz() {
+        this.currentQuizIndex++;
+        if (this.currentQuizIndex >= this.quiz.length) {
+            alert('모든 문제를 완료했습니다! 🎉');
+            this.currentQuizIndex = 0;
+        }
+        this.showQuiz();
     }
 
     async loadScenarios() {
