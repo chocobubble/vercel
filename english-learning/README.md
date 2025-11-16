@@ -73,6 +73,12 @@ english-learning/
 {
   "topic": "문법 주제명",
   "explanation": "한국어 설명",
+  "usage": "사용법 설명",
+  "practice": [
+    "연습 방법 1",
+    "연습 방법 2",
+    "연습 방법 3"
+  ],
   "examples": [
     {
       "sentence": "영어 예문",

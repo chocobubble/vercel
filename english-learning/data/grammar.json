@@ -2,7 +2,13 @@
   "daily_grammar": [
     {
       "topic": "Subjunctive Mood (가정법)",
-      "explanation": "가정법은 현실과 다른 상황이나 소망을 표현할 때 사용합니다. If I were you (내가 너라면), I wish I could (할 수 있으면 좋겠는데) 등의 표현에서 사용됩니다.",
+      "explanation": "현실과 다른 상황, 제안, 요청, 중요성 등을 전달할 때 가정법을 쓰며, that절에서 기본동사를 유지하거나 wish/if 구문으로 표현합니다.",
+      "usage": "suggest, recommend, demand, insist 같은 동사의 목적어로 that-clause가 올 때와 I wish/If I were you처럼 현재·미래의 사실과 반대되는 상황을 말할 때 주로 사용합니다.",
+      "practice": [
+        "I suggest that he study harder처럼 that절 뒤에 동사원형을 유지해서 추천해 보세요.",
+        "If I were you, ... 또는 I wish I could ...를 써서 현재 불가능한 상황을 가정해 보세요.",
+        "It's crucial that we be on time과 같이 중요한 요청을 강조할 때 동사원형을 쓰도록 기억하세요."
+      ],
       "examples": [
         {
           "sentence": "If I were you, I would book the flight early.",
@@ -17,13 +23,19 @@
         {
           "sentence": "It's important that he be on time.",
           "korean": "그가 시간에 맞춰 오는 것이 중요해요.",
-          "note": "중요성을 나타내는 that절에서 동사원형 사용"
+          "note": "that절에서 동사원형 사용"
         }
       ]
     },
     {
       "topic": "Inversion (도치)",
-      "explanation": "강조나 격식을 위해 문장의 어순을 바꾸는 것입니다. 부정어구가 문장 앞에 올 때나 조건문에서 if를 생략할 때 사용됩니다.",
+      "explanation": "부정어나 강조 구문을 문장 앞에 둘 때 도치가 발생하며, 문장을 더 격식 있게 만드는 동시에 강조점을 바꿉니다.",
+      "usage": "Never, rarely, seldom 같은 부정 표현 뒤에서 주어와 조동사가 도치되고, Only when/Only after 구조로 조건을 제시하거나 if를 생략한 가정문에서 사용됩니다.",
+      "practice": [
+        "Never have I seen...처럼 부정어를 문장 앞에 두고 도치된 문장을 소리 내어 읽어 보세요.",
+        "Only if it stops raining will we go outside처럼 Only+부사구를 앞에 두고 will/shall을 함께 사용해 보세요.",
+        "Had I known earlier, ...에서는 if가 생략된 조건문에서 도치를 적용해 보세요."
+      ],
       "examples": [
         {
           "sentence": "Never have I seen such a beautiful sunset.",
@@ -44,7 +56,13 @@
     },
     {
       "topic": "Cleft Sentences (분열문)",
-      "explanation": "특정 부분을 강조하기 위해 문장을 It is/was... that/who 구조로 나누는 것입니다. 정보의 초점을 명확히 할 때 사용됩니다.",
+      "explanation": "문장 일부를 강조하기 위해 It is/was ... that/who 구조로 분리하여 말하며, 핵심 정보에 안내선을 긋습니다.",
+      "usage": "강조하고 싶은 주어, 목적어, 이유를 분열문으로 재구성해 메시지를 명확히 전달해 보세요.",
+      "practice": [
+        "평범한 문장을 It was ... who/that로 바꿔 강조 대상을 표현해 보세요.",
+        "What I need is ...처럼 What 절로 필요한 것을 먼저 말한 뒤 설명하는 문장을 만들어 보세요.",
+        "Because of the weather that we cancelled the trip처럼 이유를 먼저 쓰고 나중에 결과를 설명해 보세요."
+      ],
       "examples": [
         {
           "sentence": "It was John who called you yesterday.",
@@ -65,7 +83,13 @@
     },
     {
       "topic": "Ellipsis (생략)",
-      "explanation": "반복을 피하고 자연스러운 대화를 위해 문장의 일부를 생략하는 것입니다. 상황상 명확한 부분은 생략할 수 있습니다.",
+      "explanation": "앞 문장에서 이미 제시된 요소를 중복하지 않고 생략함으로써 자연스럽고 빠른 대화를 유지합니다.",
+      "usage": "질문에 대한 짧은 답변, 연결된 문장에서 동일한 대상이나 동사를 반복하지 않을 때 자주 사용됩니다.",
+      "practice": [
+        "A: Are you coming? B: I hope so처럼 응답에서 앞 문장을 줄여 표현해 보세요.",
+        "She can speak French and so can I처럼 반복 구조에서 동사를 생략해 보세요.",
+        "When ready, please call me처럼 when절에서 주어/동사 일부를 빼고 말해 보세요."
+      ],
       "examples": [
         {
           "sentence": "A: Are you coming to the party? B: I hope so.",
@@ -81,6 +105,141 @@
           "sentence": "When ready, please call me.",
           "korean": "준비되면 전화해 주세요.",
           "note": "When you are ready의 생략"
+        }
+      ]
+    },
+    {
+      "topic": "Tag Questions (부가 의문문)",
+      "explanation": "진술 끝에 짧은 의문을 붙여 상대의 동의를 묻거나 확인하며 분위기를 부드럽게 유지합니다.",
+      "usage": "긍정문에는 부정 태그, 부정문에는 긍정 태그를 붙이고, 제안/명령 후에는 shall we, will you 같은 태그를 사용합니다.",
+      "practice": [
+        "You're coming to dinner, aren't you?처럼 긍정문 뒤에 부정 태그를 붙여 확인해 보세요.",
+        "She doesn't like sushi, does she?에서 부정문 뒤에 긍정 태그를 넣어 보세요.",
+        "Let's go hiking, shall we?처럼 제안 뒤에는 shall we 또는 will we를 붙여 봅니다."
+      ],
+      "examples": [
+        {
+          "sentence": "You're coming to dinner, aren't you?",
+          "korean": "저녁에 올 거죠?",
+          "note": "긍정문 뒤에 부정 태그를 붙여 확인"
+        },
+        {
+          "sentence": "She doesn't like sushi, does she?",
+          "korean": "그녀는 초밥을 좋아하지 않죠?",
+          "note": "부정문 뒤에 긍정 태그를 붙이면 동의 구하기"
+        },
+        {
+          "sentence": "Let's go hiking, shall we?",
+          "korean": "하이킹 가자, 어때요?",
+          "note": "`Let's` 다음에 `shall we`로 제안 동의"
+        }
+      ]
+    },
+    {
+      "topic": "Reported Speech (간접화법)",
+      "explanation": "직접 발화를 간접적으로 전달할 때 시제, 대명사, 시간 표현이 하나씩 뒤로 이동하며 that절이나 if/whether절로 변환됩니다.",
+      "usage": "say, tell, ask, remind, suggest 같은 말 전달 동사가 사용될 때 그러한 변화들을 적용하며, 현재→과거, now→then, today→that day처럼 시간 표현을 바꿉니다.",
+      "practice": [
+        "He said, 'I'm hungry'를 He said he was hungry로 바꾸면서 시제와 대명사를 맞춰 보세요.",
+        "Do you like coffee? 같은 의문문을 if/whether 구조로 옮겨보세요.",
+        "Will you help me?를 asked if I would help처럼 모달 동사의 변화를 함께 적용해 보세요."
+      ],
+      "examples": [
+        {
+          "sentence": "He said he was tired.",
+          "korean": "그는 피곤하다고 했어요.",
+          "note": "현재 시제를 과거로, 인칭을 맞춰 바꿈"
+        },
+        {
+          "sentence": "She asked if I had seen the city map.",
+          "korean": "그녀는 내가 도시 지도를 봤는지 물었어요.",
+          "note": "의문문을 `if/whether`로 바꿔 간접화법"
+        },
+        {
+          "sentence": "They promised they would finish the project.",
+          "korean": "그들은 프로젝트를 끝내겠다고 약속했어요.",
+          "note": "`will`이 `would`로 바뀌는 미래 시제"
+        }
+      ]
+    },
+    {
+      "topic": "Conditionals (조건문)",
+      "explanation": "0~3형식 조건을 통해 사실, 가능성, 상상, 과거 반대 상황을 구분하며 시제와 조동사를 조합해서 의미를 명확히 합니다.",
+      "usage": "일반 사실 표현은 If + 현재, 미래 가능성은 If + 현재 + will/shall, 상상은 If + 과거(예: If I were you), 과거 반대는 If + 과거완료에 would have를 씁니다.",
+      "practice": [
+        "If you heat ice, it melts처럼 일반 사실을 말할 때 현재 시제를 쓰세요.",
+        "미래 가능성은 If + 현재, will/shall을 함께 써 계획을 세워 보세요.",
+        "If they had arrived earlier, ... 같이 과거 실수를 바꿔 새로운 결과를 만들어보세요."
+      ],
+      "examples": [
+        {
+          "sentence": "If you study hard, you will pass the exam.",
+          "korean": "열심히 공부하면 시험에 합격할 거예요.",
+          "note": "현실적인 미래에 대한 1형식"
+        },
+        {
+          "sentence": "If I were you, I would take the earlier flight.",
+          "korean": "내가 너라면 더 빠른 비행기를 타겠어.",
+          "note": "현재 불가능한 상황의 2형식"
+        },
+        {
+          "sentence": "If they had left earlier, they would have caught the train.",
+          "korean": "그들이 더 일찍 출발했더라면 기차를 탔을 텐데.",
+          "note": "과거 사실과 반대되는 3형식"
+        }
+      ]
+    },
+    {
+      "topic": "Passive Voice (수동태)",
+      "explanation": "행위자의 중요성보다 받는 사람이나 결과에 초점을 맞추려면 수동태를 쓰며, be 동사와 과거분사로 구성합니다.",
+      "usage": "현재/과거/완료/진행 시제 등에서 be 동사를 시제에 맞게 변화시키고, 필요하면 by + 행위자를 덧붙여 정보를 더합니다.",
+      "practice": [
+        "Someone cleans the room을 The room is cleaned로 바꾸어 수동태를 만들어 보세요.",
+        "The report has been submitted처럼 현재 완료 수동태로 완료 상태를 표현해 보세요.",
+        "The answer was given by the teacher처럼 행위자를 by 구문으로 추가해 보세요."
+      ],
+      "examples": [
+        {
+          "sentence": "The report is reviewed every Friday.",
+          "korean": "그 보고서는 매주 금요일 검토됩니다.",
+          "note": "현재 단순 수동태"
+        },
+        {
+          "sentence": "The new menu was introduced last month.",
+          "korean": "새로운 메뉴는 지난달에 소개되었어요.",
+          "note": "과거 수동태"
+        },
+        {
+          "sentence": "The project has been completed by the team.",
+          "korean": "그 프로젝트는 팀에 의해 완료되었어요.",
+          "note": "현재 완료 수동태"
+        }
+      ]
+    },
+    {
+      "topic": "Phrasal Verbs (구동사)",
+      "explanation": "동사와 전치사/부사의 결합으로 새로운 의미를 만드는 구동사는 하나의 덩어리로 이해해야 하며, 문맥 반복 학습이 중요합니다.",
+      "usage": "타동사/자동사를 구분하고, 목적어 위치나 전치사/부사의 선택에 따라 뜻이 달라질 수 있음을 인식하세요.",
+      "practice": [
+        "bring up, turn down처럼 한 조합을 골라 여러 상황에서 활용해 보세요.",
+        "run into, look after처럼 목적어 없이도 쓰이는 자동사 구동사도 말로 표현해 보세요.",
+        "같은 동사에 다른 전치사가 붙으면 뜻이 달라지므로 look up vs look after처럼 비교해 보세요."
+      ],
+      "examples": [
+        {
+          "sentence": "She brought up the schedule during the meeting.",
+          "korean": "그녀는 회의 중에 일정을 언급했어요.",
+          "note": "'bring up'은 주제를 꺼내다"
+        },
+        {
+          "sentence": "They turned down the offer politely.",
+          "korean": "그들은 공손하게 제안을 거절했어요.",
+          "note": "'turn down'은 거절하다"
+        },
+        {
+          "sentence": "I ran into an old friend at the café.",
+          "korean": "카페에서 오랜 친구를 우연히 만났어요.",
+          "note": "'run into'는 우연히 만나다"
         }
       ]
     }

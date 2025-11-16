@@ -322,5 +322,376 @@
         "grammar": "How much does it cost? - 가격 묻기"
       }
     ]
+  },
+  "taxi_ride": {
+    "title": "택시 타기",
+    "description": "택시를 타고 목적지로 이동하는 상황",
+    "difficulty": "beginner",
+    "dialogue": [
+      {
+        "speaker": "Customer",
+        "text": "Excuse me, are you available?",
+        "korean": "실례합니다, 빈 차인가요?",
+        "vocabulary": [
+          { "word": "excuse me", "meaning": "실례합니다" },
+          { "word": "available", "meaning": "이용 가능한" }
+        ],
+        "grammar": "Are you available? - 이용 가능 여부 묻기"
+      },
+      {
+        "speaker": "Staff",
+        "text": "Yes, hop in! Where would you like to go?",
+        "korean": "네, 타세요! 어디로 가시겠어요?",
+        "vocabulary": [
+          { "word": "hop in", "meaning": "타다" },
+          { "word": "where", "meaning": "어디" }
+        ],
+        "grammar": "Where would you like to + 동사원형? - 정중한 의향 묻기"
+      },
+      {
+        "speaker": "Customer",
+        "text": "To Times Square, please. How long will it take?",
+        "korean": "타임스퀘어로 가주세요. 얼마나 걸릴까요?",
+        "vocabulary": [
+          { "word": "Times Square", "meaning": "타임스퀘어" },
+          { "word": "how long", "meaning": "얼마나" }
+        ],
+        "grammar": "How long will it take? - 소요 시간 묻기"
+      },
+      {
+        "speaker": "Staff",
+        "text": "About twenty minutes, depending on traffic.",
+        "korean": "교통 상황에 따라 약 20분 정도 걸립니다.",
+        "vocabulary": [
+          { "word": "about", "meaning": "약" },
+          { "word": "depending on", "meaning": "~에 따라" },
+          { "word": "traffic", "meaning": "교통" }
+        ],
+        "grammar": "depending on - ~에 따라서"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Could you drop me off at the main entrance?",
+        "korean": "정문에 내려주실 수 있나요?",
+        "vocabulary": [
+          { "word": "drop off", "meaning": "내려주다" },
+          { "word": "main entrance", "meaning": "정문" }
+        ],
+        "grammar": "Could you + 동사원형? - 정중한 요청"
+      },
+      {
+        "speaker": "Staff",
+        "text": "Sure, no problem. We're here. That'll be fifteen dollars.",
+        "korean": "물론이죠, 문제없어요. 도착했습니다. 15달러입니다.",
+        "vocabulary": [
+          { "word": "no problem", "meaning": "문제없다" },
+          { "word": "that'll be", "meaning": "~입니다 (가격)" }
+        ],
+        "grammar": "That'll be + 금액 - 요금 말하기"
+      }
+    ]
+  },
+  "pharmacy": {
+    "title": "약국에서",
+    "description": "약국에서 약을 구매하는 상황",
+    "difficulty": "intermediate",
+    "dialogue": [
+      {
+        "speaker": "Staff",
+        "text": "Good afternoon! How can I assist you today?",
+        "korean": "안녕하세요! 오늘 어떻게 도와드릴까요?",
+        "vocabulary": [
+          { "word": "good afternoon", "meaning": "안녕하세요 (오후)" },
+          { "word": "assist", "meaning": "돕다" }
+        ],
+        "grammar": "How can I assist you? - 도움 제공 표현"
+      },
+      {
+        "speaker": "Customer",
+        "text": "I have a headache and a sore throat. What do you recommend?",
+        "korean": "두통과 목이 아파요. 무엇을 추천하시나요?",
+        "vocabulary": [
+          { "word": "headache", "meaning": "두통" },
+          { "word": "sore throat", "meaning": "목 통증" },
+          { "word": "recommend", "meaning": "추천하다" }
+        ],
+        "grammar": "What do you recommend? - 추천 요청"
+      },
+      {
+        "speaker": "Staff",
+        "text": "I'd suggest this pain reliever and some throat lozenges. Do you have any allergies?",
+        "korean": "이 진통제와 목 캔디를 추천합니다. 알레르기가 있으신가요?",
+        "vocabulary": [
+          { "word": "suggest", "meaning": "제안하다" },
+          { "word": "pain reliever", "meaning": "진통제" },
+          { "word": "throat lozenges", "meaning": "목 캔디" },
+          { "word": "allergies", "meaning": "알레르기" }
+        ],
+        "grammar": "I'd suggest... - 제안 표현"
+      },
+      {
+        "speaker": "Customer",
+        "text": "No allergies. How often should I take these?",
+        "korean": "알레르기는 없어요. 얼마나 자주 먹어야 하나요?",
+        "vocabulary": [
+          { "word": "how often", "meaning": "얼마나 자주" },
+          { "word": "take", "meaning": "복용하다" }
+        ],
+        "grammar": "How often should I + 동사원형? - 빈도 묻기"
+      },
+      {
+        "speaker": "Staff",
+        "text": "Take two tablets every six hours with food. Don't exceed eight tablets per day.",
+        "korean": "음식과 함께 6시간마다 2정씩 복용하세요. 하루 8정을 초과하지 마세요.",
+        "vocabulary": [
+          { "word": "tablets", "meaning": "정제, 알약" },
+          { "word": "every", "meaning": "~마다" },
+          { "word": "with food", "meaning": "음식과 함께" },
+          { "word": "exceed", "meaning": "초과하다" },
+          { "word": "per day", "meaning": "하루에" }
+        ],
+        "grammar": "Don't exceed... - 금지 표현"
+      }
+    ]
+  },
+  "subway_station": {
+    "title": "지하철역에서",
+    "description": "지하철을 타기 위해 정보를 묻는 상황",
+    "difficulty": "beginner",
+    "dialogue": [
+      {
+        "speaker": "Customer",
+        "text": "Excuse me, how do I get to Central Park from here?",
+        "korean": "실례합니다, 여기서 센트럴파크까지 어떻게 가나요?",
+        "vocabulary": [
+          { "word": "excuse me", "meaning": "실례합니다" },
+          { "word": "get to", "meaning": "~에 가다" },
+          { "word": "from here", "meaning": "여기서" }
+        ],
+        "grammar": "How do I get to...? - 길 묻기"
+      },
+      {
+        "speaker": "Staff",
+        "text": "Take the A train uptown. It's about five stops from here.",
+        "korean": "A 트레인을 타고 업타운 방향으로 가세요. 여기서 약 5정거장입니다.",
+        "vocabulary": [
+          { "word": "take", "meaning": "타다" },
+          { "word": "train", "meaning": "기차, 전철" },
+          { "word": "uptown", "meaning": "업타운 (북쪽)" },
+          { "word": "stops", "meaning": "정거장" }
+        ],
+        "grammar": "Take the + 교통수단 - 교통수단 이용 표현"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Where can I buy a MetroCard?",
+        "korean": "메트로카드는 어디서 살 수 있나요?",
+        "vocabulary": [
+          { "word": "where", "meaning": "어디" },
+          { "word": "buy", "meaning": "사다" },
+          { "word": "MetroCard", "meaning": "메트로카드" }
+        ],
+        "grammar": "Where can I + 동사원형? - 장소 묻기"
+      },
+      {
+        "speaker": "Staff",
+        "text": "There's a vending machine right behind you. It accepts cash and credit cards.",
+        "korean": "바로 뒤에 자동판매기가 있어요. 현금과 신용카드를 받습니다.",
+        "vocabulary": [
+          { "word": "vending machine", "meaning": "자동판매기" },
+          { "word": "right behind", "meaning": "바로 뒤에" },
+          { "word": "accepts", "meaning": "받다" },
+          { "word": "cash", "meaning": "현금" },
+          { "word": "credit cards", "meaning": "신용카드" }
+        ],
+        "grammar": "There's... - 존재 표현"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Thank you! Which platform should I go to?",
+        "korean": "감사합니다! 어느 플랫폼으로 가야 하나요?",
+        "vocabulary": [
+          { "word": "which", "meaning": "어느" },
+          { "word": "platform", "meaning": "플랫폼" },
+          { "word": "should", "meaning": "~해야 한다" }
+        ],
+        "grammar": "Which + 명사 + should I...? - 선택 묻기"
+      },
+      {
+        "speaker": "Staff",
+        "text": "Platform two. Follow the signs for the uptown A train.",
+        "korean": "2번 플랫폼이요. 업타운 A 트레인 표지판을 따라가세요.",
+        "vocabulary": [
+          { "word": "follow", "meaning": "따라가다" },
+          { "word": "signs", "meaning": "표지판" }
+        ],
+        "grammar": "Follow the signs for... - 표지판 따라가기"
+      }
+    ]
+  },
+  "coffee_shop": {
+    "title": "커피숍에서",
+    "description": "커피숍에서 음료를 주문하는 상황",
+    "difficulty": "beginner",
+    "dialogue": [
+      {
+        "speaker": "Staff",
+        "text": "Hi! What can I get for you today?",
+        "korean": "안녕하세요! 오늘 무엇을 드릴까요?",
+        "vocabulary": [
+          { "word": "get", "meaning": "가져다주다" },
+          { "word": "for you", "meaning": "당신을 위해" }
+        ],
+        "grammar": "What can I get for you? - 주문 받기"
+      },
+      {
+        "speaker": "Customer",
+        "text": "I'd like a large iced coffee, please.",
+        "korean": "큰 사이즈 아이스 커피 주세요.",
+        "vocabulary": [
+          { "word": "I'd like", "meaning": "~을 원합니다" },
+          { "word": "large", "meaning": "큰" },
+          { "word": "iced coffee", "meaning": "아이스 커피" }
+        ],
+        "grammar": "I'd like... - 주문 표현"
+      },
+      {
+        "speaker": "Staff",
+        "text": "Would you like room for cream?",
+        "korean": "크림 넣을 공간을 남겨드릴까요?",
+        "vocabulary": [
+          { "word": "room", "meaning": "공간" },
+          { "word": "cream", "meaning": "크림" }
+        ],
+        "grammar": "Would you like...? - 제안 표현"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Yes, please. Can I also get a blueberry muffin?",
+        "korean": "네, 주세요. 블루베리 머핀도 주문할 수 있나요?",
+        "vocabulary": [
+          { "word": "also", "meaning": "또한" },
+          { "word": "blueberry muffin", "meaning": "블루베리 머핀" }
+        ],
+        "grammar": "Can I also get...? - 추가 주문"
+      },
+      {
+        "speaker": "Staff",
+        "text": "Sure! Anything else?",
+        "korean": "물론이죠! 다른 것은요?",
+        "vocabulary": [
+          { "word": "sure", "meaning": "물론" },
+          { "word": "anything else", "meaning": "다른 것" }
+        ],
+        "grammar": "Anything else? - 추가 주문 확인"
+      },
+      {
+        "speaker": "Customer",
+        "text": "That's all. How much is it?",
+        "korean": "그게 다예요. 얼마인가요?",
+        "vocabulary": [
+          { "word": "that's all", "meaning": "그게 다입니다" },
+          { "word": "how much", "meaning": "얼마" }
+        ],
+        "grammar": "How much is it? - 가격 묻기"
+      },
+      {
+        "speaker": "Staff",
+        "text": "That'll be seven fifty. For here or to go?",
+        "korean": "7달러 50센트입니다. 여기서 드시나요, 가져가시나요?",
+        "vocabulary": [
+          { "word": "that'll be", "meaning": "~입니다" },
+          { "word": "for here", "meaning": "여기서" },
+          { "word": "to go", "meaning": "가져가다" }
+        ],
+        "grammar": "For here or to go? - 매장/포장 선택"
+      }
+    ]
+  },
+  "car_rental": {
+    "title": "렌터카 대여",
+    "description": "렌터카를 빌리는 상황",
+    "difficulty": "advanced",
+    "dialogue": [
+      {
+        "speaker": "Staff",
+        "text": "Welcome to our car rental service! Do you have a reservation?",
+        "korean": "렌터카 서비스에 오신 것을 환영합니다! 예약이 있으신가요?",
+        "vocabulary": [
+          { "word": "car rental", "meaning": "렌터카" },
+          { "word": "service", "meaning": "서비스" },
+          { "word": "reservation", "meaning": "예약" }
+        ],
+        "grammar": "Do you have...? - 소유 여부 묻기"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Yes, I booked a compact car for three days under the name Kim.",
+        "korean": "네, 김이라는 이름으로 소형차를 3일간 예약했습니다.",
+        "vocabulary": [
+          { "word": "booked", "meaning": "예약했다" },
+          { "word": "compact car", "meaning": "소형차" },
+          { "word": "under the name", "meaning": "~이름으로" }
+        ],
+        "grammar": "I booked... for + 기간 - 예약 표현"
+      },
+      {
+        "speaker": "Staff",
+        "text": "Perfect! I'll need to see your driver's license and a credit card, please.",
+        "korean": "좋습니다! 운전면허증과 신용카드를 보여주세요.",
+        "vocabulary": [
+          { "word": "perfect", "meaning": "완벽한" },
+          { "word": "driver's license", "meaning": "운전면허증" },
+          { "word": "credit card", "meaning": "신용카드" }
+        ],
+        "grammar": "I'll need to see... - 제시 요청"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Here you are. Do I need to purchase insurance?",
+        "korean": "여기 있습니다. 보험을 구매해야 하나요?",
+        "vocabulary": [
+          { "word": "here you are", "meaning": "여기 있습니다" },
+          { "word": "purchase", "meaning": "구매하다" },
+          { "word": "insurance", "meaning": "보험" }
+        ],
+        "grammar": "Do I need to + 동사원형? - 필요 여부 묻기"
+      },
+      {
+        "speaker": "Staff",
+        "text": "It's optional, but I highly recommend it. It covers collision and theft.",
+        "korean": "선택사항이지만 강력히 추천합니다. 충돌과 도난을 보장합니다.",
+        "vocabulary": [
+          { "word": "optional", "meaning": "선택사항" },
+          { "word": "highly recommend", "meaning": "강력히 추천하다" },
+          { "word": "covers", "meaning": "보장하다" },
+          { "word": "collision", "meaning": "충돌" },
+          { "word": "theft", "meaning": "도난" }
+        ],
+        "grammar": "I highly recommend... - 강력한 추천"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Okay, I'll take it. What's the total cost?",
+        "korean": "알겠습니다, 가입하겠습니다. 총 비용이 얼마인가요?",
+        "vocabulary": [
+          { "word": "I'll take it", "meaning": "그것을 하겠다" },
+          { "word": "total cost", "meaning": "총 비용" }
+        ],
+        "grammar": "What's the total...? - 총액 묻기"
+      },
+      {
+        "speaker": "Staff",
+        "text": "With insurance, it comes to two hundred dollars. Please return the car with a full tank of gas.",
+        "korean": "보험 포함해서 200달러입니다. 기름을 가득 채워서 반납해 주세요.",
+        "vocabulary": [
+          { "word": "comes to", "meaning": "~이 되다 (총액)" },
+          { "word": "return", "meaning": "반납하다" },
+          { "word": "full tank", "meaning": "가득 찬 탱크" },
+          { "word": "gas", "meaning": "휘발유" }
+        ],
+        "grammar": "Please return... with... - 조건부 반납 요청"
+      }
+    ]
   }
 }

@@ -113,8 +113,18 @@ class ConversationDictation {
         document.getElementById('grammarExplanation').textContent = grammar.explanation;
         document.getElementById('grammarProgress').textContent = `${this.currentGrammarIndex + 1} / ${this.grammar.length}`;
         
+        const usageDiv = document.getElementById('grammarUsage');
+        usageDiv.innerHTML = grammar.usage ? `<h4>💡 사용법</h4><p>${grammar.usage}</p>` : '';
+        
+        const practiceDiv = document.getElementById('grammarPractice');
+        if (grammar.practice && grammar.practice.length > 0) {
+            practiceDiv.innerHTML = '<h4>✏️ 연습 방법</h4>' + grammar.practice.map(p => `<p>• ${p}</p>`).join('');
+        } else {
+            practiceDiv.innerHTML = '';
+        }
+        
         const examplesDiv = document.getElementById('grammarExamples');
-        examplesDiv.innerHTML = '';
+        examplesDiv.innerHTML = '<h4>📝 예문</h4>';
         
         grammar.examples.forEach(example => {
             const exampleDiv = document.createElement('div');
